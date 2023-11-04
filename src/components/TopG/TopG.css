@@ -1,0 +1,33 @@
+.TopG { 
+    margin-top: 10rem; 
+    padding: 0 20rem;
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+
+    @media screen and (max-width: 800px) {
+        padding: 0 5rem;
+    }
+} 
+
+.TopG img {
+    width: 50rem;
+    border-radius: 2rem;
+
+    @media only screen and (max-width: 600px) {
+        width: 30rem;
+    }
+}
+
+.TopG h2 {
+    font-size: 3.2rem; 
+    color: black; 
+    margin-bottom: 4rem;
+} 
+
+.TopG p { 
+    margin-top: 2.4rem;
+    font-size: 2.1rem;
+    margin-bottom: 2rem;
+}
