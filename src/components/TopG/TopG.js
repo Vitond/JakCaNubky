@@ -6,7 +6,7 @@ export const TopG = () => {
     return (
         <section className="TopG"> 
             <h2>Děkujeme Vojtovi</h2>
-            <img src={strongG} />
+            <img src={strongG} alt="strongG"/>
             <p>
                 Za skvělé rady. Za inspiraci. Za možnost potkávat se v kanclu. Za nezapomenutelné vzpomínky. Teď už víme, co to znamená "se zrichtovat."
                 Přejeme, ať svého života vytěžíš minimálně natolik, kolik jsou vytěžené ostravské kraje z dob socialismu.
